@@ -81,6 +81,12 @@ function getRgbNumbers(rgb) {
     return rgbArray;
 }
 
+function colorTransition(a, b, u) {
+
+    return (1 - u) * a + u * b;
+
+}
+
 
 //Cubic beizer from https://github.com/gre/bezier-easing
 
@@ -514,12 +520,6 @@ var setValues = {
     }
 
 };
-
-function colorTransition(a, b, u) {
-
-    return (1 - u) * a + u * b;
-
-}
 
 function getCurrentValue(elem, field) {
 
