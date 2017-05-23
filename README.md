@@ -47,7 +47,7 @@ You can also add custom cubic-bezier numbers (good place to create cubiz-bezier:
 });
 ```
 
-All Easing Types:
+All Easing Types (For more informatin, click [here](http://easings.net) ):
 
 * 'easeIn'
 * 'easeOut'
