@@ -1,0 +1,51 @@
+<!doctype html>
+<html>
+<header>
+<meta charset="utf-8"/>
+<title>AnimOB Demo</title>
+<style>
+	body {
+		
+		padding:32px;
+		margin:32px;
+	}
+	
+	.myDiv{
+	
+		width:250px;
+		height:250px;
+		background:tomato;
+	}
+</style>
+<script src="animOb.js"></script>
+</header>
+<body>
+<div class="myDiv"></div>
+<script type="text/javascript">
+	    var ob = new AnimeOb({
+        elem: '.myDiv',
+        moveX: 550,
+        duration: 1500,
+        delay: 500,
+        rotate: 180,
+        end: function () {
+
+            var sc = new AnimeOb({
+
+                elem: '.myDiv',
+                moveX: 0,
+                rotate: -180,
+                radius: 0,
+                backgroundColor: '#ff6347',
+                duration: 1000,
+                easing: 'easeInSine'
+
+            });
+        },
+        radius: 150,
+        backgroundColor: '#9cadb5',
+        easing: 'easeInSine'
+    });
+</script>
+</body>
+</html>
