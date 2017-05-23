@@ -46,3 +46,33 @@ You can also add custom cubic-bezier numbers (good place to create cubiz-bezier:
 	easing: [.17,.67,.83,.67]
 });
 ```
+
+All Easing Types:
+
+*'easeIn'
+*'easeOut'
+*'easeInOut'
+*'easeInQuad'
+*'easeInCubic'
+*'easeInQuart'
+*'easeInQuint'
+*'easeInSine'
+*'easeInExpo'
+*'easeInCirc'
+*'easeInBack'
+*'easeOutQuad'
+*'easeOutCubic'
+*'easeOutQuart'
+*'easeOutQuint'
+*'easeOutSine'
+*'easeOutExpo'
+*'easeOutCirc'
+*'easeOutBack'
+*'easeInOutQuad'
+*'easeInOutCubic'
+*'easeInOutQuart'
+*'easeInOutQuint'
+*'easeInOutSine'
+*'easeInOutExpo'
+*'easeInOutCirc'
+*'easeInOutBack'
