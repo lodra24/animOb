@@ -35,7 +35,7 @@ var anim = new AnimOb({
 });
 ```
 
-You can also add custom cubic-bezier numbers (good place to create cubiz-bezier: http://cubic-bezier.com)
+You can also add custom cubic-bezier numbers (good place to create cubic-bezier: http://cubic-bezier.com)
 
 ```javascript
  
@@ -47,7 +47,7 @@ You can also add custom cubic-bezier numbers (good place to create cubiz-bezier:
 });
 ```
 
-All Easing Types (For more informatin, click [here](http://easings.net) ):
+All Easing Types (For more information, click [here](http://easings.net) ):
 
 * 'easeIn'
 * 'easeOut'
