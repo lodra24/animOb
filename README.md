@@ -4,7 +4,7 @@ Simple animation library which created with pure javascript language.
 Basic Example: 
 
 ```javascript
-var anim = new animOb({
+var anim = new AnimOb({
   elem : "div",
   moveX: 150,
   rotate: 180,
@@ -16,7 +16,7 @@ var anim = new animOb({
 With All Properties:
 
 ```javascript
-var anim = new animOb({
+var anim = new AnimOb({
 	elem : ".circle",
 	duration: 2000,
 	moveX : 150,
@@ -39,7 +39,7 @@ You can also add custom cubic-bezier numbers (good place to create cubiz-bezier:
 
 ```javascript
  
- var anim = new animOb({
+ var anim = new AnimOb({
 	elem : ".circle",
 	duration: 2000,
 	moveX : 150,
